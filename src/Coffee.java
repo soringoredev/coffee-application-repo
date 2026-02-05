@@ -4,14 +4,12 @@ public class Coffee {
     private int conc;
 
     //constructor (init)
-
     public Coffee(int t, int c) {
         temp = t;
         conc = c;
     }
 
     // getters
-
     public int getTemp() {
         return temp;
     }
